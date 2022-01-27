@@ -1,0 +1,15 @@
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/bin/Debug/net6.0/DataProcessor
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/bin/Debug/net6.0/DataProcessor.deps.json
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/bin/Debug/net6.0/DataProcessor.runtimeconfig.json
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/bin/Debug/net6.0/DataProcessor.dll
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/bin/Debug/net6.0/ref/DataProcessor.dll
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/bin/Debug/net6.0/DataProcessor.pdb
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.csproj.AssemblyReference.cache
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.AssemblyInfoInputs.cache
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.AssemblyInfo.cs
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.csproj.CoreCompileInputs.cache
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.dll
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/ref/DataProcessor.dll
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.pdb
+/Users/testinium/RiderProjects/DataProcessor/DataProcessor/obj/Debug/net6.0/DataProcessor.genruntimeconfig.cache
