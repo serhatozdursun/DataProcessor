@@ -27,7 +27,7 @@ namespace DataProcessor
                 }
                 if (arg.StartsWith("sourceType"))
                 {
-                    var type = arg.Replace("sourceType", "");
+                    var type = arg.Replace("sourceType=", "");
                     CheckArgumentsIsNull(type);
                     sourceType = GetSourceTypes(type);
                 }
