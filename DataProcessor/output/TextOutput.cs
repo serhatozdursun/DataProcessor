@@ -14,8 +14,8 @@ public class TextOutput : IOutput
        if (stringData.Length < 7)
            throw new LenghtMismatch("text data should be 7 character at least");
        stringData = stringData.Substring(0, 6);
-       var utf8Bytes = Encoding.UTF8.GetBytes(stringData);
-       stringData =  Encoding.UTF8.GetString(utf8Bytes);
+       byte[] utf =Encoding.UTF8.GetBytes(stringData);
+       stringData = Encoding.UTF8.GetString(utf);
        Console.WriteLine(stringData);
     }
 }

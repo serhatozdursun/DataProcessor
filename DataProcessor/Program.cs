@@ -36,10 +36,10 @@ namespace DataProcessor
             switch(sourceType)
             {
                 case SourceTypes.Database:
-                    //todo
+                    //ToDo
                 break;
                 case SourceTypes.Eventlog:
-                    //todo
+                    //ToDo
                 break;
                 default:
                     var data = GetFileData(filePath, dataType);
@@ -49,8 +49,6 @@ namespace DataProcessor
  
             
         }
-
-
         private static void Output(DataTypes dataTypes, object data)
         {
             IOutput output;
@@ -70,7 +68,6 @@ namespace DataProcessor
                     break;
             }
         }
-
         private static object GetFileData(string? filePath, DataTypes dataType)
         {
             var fileDataType = new FileDataType();
@@ -83,7 +80,6 @@ namespace DataProcessor
                     return fileDataType.GetFileContentAsText(filePath);
             }
         }
-        
         private static void CheckArgumentsIsNull(string arg)
         {
             if (arg == null)
@@ -91,21 +87,18 @@ namespace DataProcessor
                 throw new NullArgumentsException("please define filePath and dataType");
             }
         }
-
         private static DataTypes GetDataTypes(string type)
         {
             type = MakeFirstCharUpperCase(type);
             CheckArgumentsIsNull(type);
             return (DataTypes) Enum.Parse(typeof(DataTypes), type);
         }
-        
         private static SourceTypes GetSourceTypes(string type)
         {
             type = MakeFirstCharUpperCase(type);
             CheckArgumentsIsNull(type);
             return (SourceTypes) Enum.Parse(typeof(SourceTypes), type);
         }
-
         private static string MakeFirstCharUpperCase(string text)
         {
             return text.Substring(0, 1).ToUpper() + text.Substring(1);
